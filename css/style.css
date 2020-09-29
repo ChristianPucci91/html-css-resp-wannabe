@@ -131,3 +131,19 @@ img {
 }
 
 /* ----------FINE ESERCIZIO----------  */
+
+/* --------- ESERCIZIO BONUS------------- */
+
+@media screen and (min-width:421px) and (max-width:768px) {
+  .row {
+    max-width: 100%;
+  }
+
+
+
+ #lezioni .row > .left, #lezioni .row > .right {
+
+   width: auto;
+   float:none;
+   
+ }
