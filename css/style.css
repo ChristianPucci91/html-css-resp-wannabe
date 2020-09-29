@@ -74,10 +74,13 @@ img {
 
 /* --------- COMANDI MEDIA ---------- */
 
+/* -------ESERCIZIO 29 SEP 2020 --------*/
 
-@media screen and (min-width:0) and (max-width:419px) {
 
-/* regola generale */
+@media screen and (max-width:420px) {
+
+/* regole generale */
+
   .row {
 
     max-width: 100%;
@@ -90,6 +93,8 @@ img {
     max-height: 100%;
 
   }
+
+  /* larghezza a left , central e right */
 
   .left {
 
@@ -111,6 +116,8 @@ img {
 
   }
 
+  /* regolazione img per mobile */
+
   #why .row img {
     padding:5px;
   }
@@ -122,3 +129,5 @@ img {
   }
 
 }
+
+/* ----------FINE ESERCIZIO----------  */
