@@ -134,16 +134,56 @@ img {
 
 /* --------- ESERCIZIO BONUS------------- */
 
-@media screen and (min-width:421px) and (max-width:768px) {
+
+/* Media tablet size sezione steps */
+
+@media screen and (max-width:630px) {
+
   .row {
     max-width: 100%;
   }
 
+  #lezioni .row > .left, #lezioni .row > .right {
 
+   width: auto;
+   float:none;
+
+  }
+
+ /* comando per mandare a capo lo #steps .row > .right */
+
+  #steps .row > .right {
+
+     width: auto;
+     margin-top: 50px;
+
+  }
+
+  /* comando che segue per guadagnare width con .left & .central */
+
+  #steps .row > .left, #steps .row > .central {
+
+    width:48%;
+  }
+
+}
+
+/* media tablet size  */
+
+@media screen  and (max-width:768px) {
+
+  .row {
+    max-width: 100%;
+  }
+
+/* manda a capo la parte .right di #lezioni  */
 
  #lezioni .row > .left, #lezioni .row > .right {
 
    width: auto;
    float:none;
-   
+   margin-bottom: 40px;
+
  }
+
+ /* ------ FINE ESERCIZIO BONUS --------- */
